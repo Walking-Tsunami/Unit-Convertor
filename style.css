@@ -1,0 +1,139 @@
+html {
+  background-image: linear-gradient(
+    to right,
+    #22577b,
+    #38a3a5,
+    #57cc99,
+    #80ed99,
+    #c7f9cc
+  );
+  margin-top: 15px;
+  background-size: cover;
+}
+
+body {
+  width: 600px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid white;
+  opacity: 0.8;
+  background-color: white;
+  margin-top: 50px;
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #22577b;
+  margin-bottom: 20px;
+}
+
+/* Input Styling */
+input {
+  width: 580px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #57cc99;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Dropdown Styling */
+select {
+  width: 600px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #57cc99;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Button Styling */
+#Btn {
+  width: 580px;
+  padding: 10px;
+  background-color: #22577b;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Button Hover effect */
+#Btn:hover {
+  background-color: #57cc99;
+}
+
+/* Error Message Styling */
+#error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Output Header Styling */
+h2 {
+  font-size: 20px;
+  color: #22577b;
+  text-align: center;
+}
+/* Output Number */
+#output {
+  font-weight: bold;
+  color: #38a3a5;
+}
+/* Units at the end of output */
+#Units {
+  font-weight: bold;
+  color: #57cc99;
+}
+/* General Button Container Styling */
+#button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Light Mode Button Styling */
+#light-mode {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #57cc99; /*  green border */
+  border-radius: 8px;
+  background-color: white;
+  color: #22577b; /* Blue text color */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth hover effect learnt ease for this */
+}
+
+/* Dark Mode Button Styling */
+#dark-mode {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #57cc99; /*  green border */
+  border-radius: 8px;
+  background-color: white;
+  color: #22577b; /* Blue text color */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Light Mode Hover Effect */
+#light-mode:hover {
+  background-color: #57cc99; /* Light green background on hover */
+  color: white; /* White text on hover */
+  border-color: #22577b; /* Blue border on hover */
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+/* Dark Mode Hover Effect */
+#dark-mode:hover {
+  background-color: #333; /* Dark background on hover */
+  color: #f1f1f1; /* Light text color on hover */
+  border-color: #555; /* Slightly lighter border for hover */
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
